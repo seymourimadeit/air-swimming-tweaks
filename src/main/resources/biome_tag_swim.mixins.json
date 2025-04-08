@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "tallestegg.biome_tag_swim.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "biome_tag_swim.refmap.json",
+  "mixins": [
+    "PlayerMixin",
+    "LocalPlayerMixin"
+  ],
+  "client":[
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
