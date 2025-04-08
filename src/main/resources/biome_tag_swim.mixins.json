@@ -4,10 +4,10 @@
   "compatibilityLevel": "JAVA_21",
   "refmap": "biome_tag_swim.refmap.json",
   "mixins": [
-    "PlayerMixin",
-    "LocalPlayerMixin"
+    "PlayerMixin"
   ],
   "client":[
+    "LocalPlayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
